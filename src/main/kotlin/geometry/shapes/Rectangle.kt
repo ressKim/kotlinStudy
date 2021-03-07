@@ -3,7 +3,7 @@ package geometry.shapes
 import java.util.Random
 
 
-class Rectangle(val height: Int, val width: Int) {
+class Rectangle(private val height: Int, private val width: Int) {
     val isSquared: Boolean
         get() = height == width
 }
